@@ -1,0 +1,96 @@
+body{
+    height: 100%;
+    
+}
+#company-name{
+    color: darkblue;
+}
+
+#background{
+    background: lightgray;
+}
+
+.about{
+    text-align: center;
+    background: lightgray;
+}
+
+.jumbotron{
+    background: red;
+}
+
+.shop{
+    text-align: center;
+    font-size: 26px; 
+    position: relative;
+}
+
+.shop img{
+    width: 600px;
+    height: 225px;
+    display: block;
+    margin: auto;
+    background: white;
+    
+}
+
+.image{
+    width: 600px;
+    height: 225px;
+    display: block;
+    margin: auto;
+    background: white;
+    position: relative;
+}
+
+h2{
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 50%;
+    left: 45%;
+    font-size: 64px;
+}
+
+
+
+/* footer */
+.footer{
+    height:24px; 
+    width: 100%; 
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    /* position: fixed; */
+    bottom: 0pt;
+    left: 0pt;
+}
+
+.footer-contents{
+    background: lightgray;
+    height:80px; 
+    width: 100%; 
+    margin:auto;
+}
+
+.contact{
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 33%;
+    text-align: center;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+#social-media{
+    font-size: 18px;
+}
